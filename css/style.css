@@ -1,0 +1,682 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+    .grid_index {
+        display: grid;
+        grid-template-areas:
+        "cabecera cabecera cabecera"
+        "principal principal principal"
+        "fechas fechas publicidad"
+        "noticias noticias publicidad"
+        "footer footer footer";
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        height: 100vh;
+    }
+        .cabecera {
+            grid-area: cabecera;
+        }
+
+        .principal {
+            grid-area: principal;
+        }
+
+        .fechas {
+            grid-area: fechas;
+        }
+
+        .noticias {
+            grid-area: noticias;
+        }
+        .section_img {
+            grid-area: publicidad;
+        }
+        .footer {
+            grid-area: footer;
+        }
+
+    .grid_miembros{
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "hetfield"
+        "ulrich"
+        "hammett"
+        "trujillo"
+        "footer";
+        grid-template-rows: repeat(6, 1fr);
+        height: 100vh;
+        }
+        .cabecera {
+            grid-area: cabecera;
+            }
+
+        .hetfield {
+            grid-area: hetfield;
+            }
+
+        .ulrich {
+            grid-area: ulrich;
+            }
+
+        .hammett {
+            grid-area: hammett;
+            }
+        .trujillo {
+            grid-area: trujillo;
+            }
+        .footer {
+            grid-area: footer;
+            }
+
+    .grid_discografia{
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "kill"
+        "lightning"
+        "master"
+        "justice"
+        "black1"
+        "load"
+        "reload"
+        "anger"
+        "magnetic"
+        "hardwire"
+        "footer";
+        grid-template-rows: repeat(12, 1fr);
+        height: 100vh;
+            }
+        .cabecera {
+            grid-area: cabecera;
+                }
+
+        .kill {
+            grid-area: kill;
+                }
+
+        .lightning {
+            grid-area: lightning;
+                }
+
+        .master {
+            grid-area: master;
+                }
+        .justice {
+            grid-area: justice;
+                }
+        .black1 {
+            grid-area: black1;
+                }
+        .load {
+            grid-area: load;
+                        }
+
+        .reload {
+            grid-area: reload;
+                        }
+
+        .anger {
+            grid-area: anger;
+                        }
+
+        .magnetic {
+            grid-area: magnetic;
+                        }
+        .hardwire {
+            grid-area: hardwire;
+                        }
+        .footer {
+            grid-area: footer;
+                        }
+
+    .grid_galeria{
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "main_galeria"
+        "footer";
+        grid-template-rows: repeat(3, 1fr);
+        height: 100vh;
+        }
+        .cabecera {
+            grid-area: cabecera;
+            }
+
+        .main_galeria {
+            grid-area: main_galeria;
+            }
+
+        .footer {
+            grid-area: footer;
+            }
+
+    .grid_contacto{
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "contacto"
+        "footer";
+        grid-template-rows: repeat(3, 1fr);
+        height: 100vh;
+        }
+        .cabecera {
+            grid-area: cabecera;
+            }
+
+        .contacto {
+            grid-area: contacto;
+            }
+
+        .footer {
+            grid-area: footer;
+            }
+
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cabecera_links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex: 1;
+
+}
+
+.cabecera_links li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+.video_metallica {
+    overflow:hidden;
+    padding-bottom:600px;
+    position:relative;
+    height:0;
+}
+
+.video_iframe {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.tickets{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.metallica{
+    display: flex;
+    margin-top: 5rem;
+    align-items: flex-start;
+}
+.metallica_foto{
+    height: 100%;
+    border-radius: 10%;
+}
+
+.metallica_texto{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #4B4B4B;
+}
+.imagen_pelicula img{
+
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+.noticias_article{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+
+.footer{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    margin-top: 40px;
+    background-color: #0f0f0f;
+
+}
+
+
+.miembros{
+    display: flex;
+}
+
+.miembros_texto{
+    margin: 2rem;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #4B4B4B;
+    margin-top: 0;
+}
+.miembros_foto{
+    border-radius: 5%;
+}
+.discos{
+    display: flex;
+
+}
+
+.discos_textos{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 0;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #4B4B4B;
+}
+.discos_fotos{
+    border-radius: 5%;
+    height: 100%;
+}
+
+.discos_musica{
+    padding-top:24px;
+
+}
+
+.fotos{
+    width: 100%;
+}
+.galeria{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+.galeria_fotos:nth-of-type(1){
+    grid-column: 1/5;
+}
+.galeria_fotos:nth-of-type(2){
+    grid-column: 5/9;
+}
+
+.galeria_fotos:nth-of-type(3){
+    grid-column: 9/13 ;
+}
+
+.galeria_fotos:nth-of-type(4){
+    grid-column: 1/5 ;
+}
+
+.galeria_fotos:nth-of-type(5){
+    grid-column: 5/9;
+}
+.galeria_fotos:nth-of-type(6){
+    grid-column: 9/13;
+}
+
+.galeria_fotos:nth-of-type(7){
+    grid-column: 1/5 ;
+}
+
+.galeria_fotos:nth-of-type(8){
+    grid-column: 5/9 ;
+}
+.galeria_fotos:nth-of-type(9){
+    grid-column: 9/13 ;
+}
+.galeria_fotos:hover{
+    filter: opacity(0.7);
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+}
+
+.galeria_fotos img{
+    border-radius: 1rem;
+}
+
+.main_formulario{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+@media screen and (max-width: 375px){
+
+    .grid_index {
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "principal"
+        "fechas"
+        "noticias"
+        "publicidad"
+        "footer";
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+        height: 100vh;
+        row-gap: 0px;
+        column-gap: 0px;
+    }
+
+
+        .cabecera {
+            grid-area: cabecera;
+        }
+
+        .principal {
+            grid-area: principal;
+        }
+
+        .fechas {
+            grid-area: fechas;
+        }
+
+        .imagen_pelicula {
+            grid-area: publicidad;
+        }
+        .noticias {
+            grid-area: noticias;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .cabecera_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+
+    }
+
+    .cabecera_links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        padding: 0;
+
+    }
+    h1{
+    font-size: 42px;
+    }
+    h2{
+    font-size: 24px;
+    }
+    .video_metallica {
+        overflow:hidden;
+        padding-bottom:400px;
+        position:relative;
+        height:0;
+    }
+
+    .video_iframe {
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .cabecera_links li a{
+        font-size: 16px;
+        padding: 2px;
+        margin: 0;
+    }
+    .metallica{
+        flex-direction: column;
+    }
+    .metallica_foto img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .metallica_texto p{
+        font-size: 12px;
+    }
+    .metallica_texto{
+        margin:16px;
+    }
+    .tickets span{
+        font-size: 12px;
+    }
+
+    .tickets button{
+        height: 24px;
+    }
+    .noticias_links li{
+        font-size: 12px;
+    }
+    .publicidad{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imagen_pelicula img{
+    width: 100%;
+}
+    .miembros{
+        flex-direction: column;
+
+    }
+
+    .miembros_texto{
+        font-size: 12px;
+        margin: 16px;
+    }
+    .miembros_foto{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .discos{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .discos_fotos{
+        width: 100%;
+    }
+    .discos_textos{
+        font-size: 12px;
+        margin:16px;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeria_fotos{
+        width: 100%;
+    }
+
+    picture{
+        margin: 0;
+    }
+    
+    .logo_contacto{
+        width: 100%;
+    }
+    .main_formulario{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 376px) and (max-width:900px){
+
+    .grid_index {
+        display: grid;
+        grid-template-areas:
+        "cabecera"
+        "principal"
+        "fechas"
+        "noticias"
+        "publicidad"
+        "footer";
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+        height: 100vh;
+        row-gap: 0px;
+        column-gap: 0px;
+    }
+
+
+        .cabecera {
+            grid-area: cabecera;
+        }
+
+        .principal {
+            grid-area: principal;
+        }
+
+        .fechas {
+            grid-area: fechas;
+        }
+
+        .imagen_pelicula {
+            grid-area: publicidad;
+        }
+        .noticias {
+            grid-area: noticias;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+    
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+
+.cabecera_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0;
+    
+}
+.cabecera_links li a{
+    font-size: 24px;
+    padding: 12px;
+    
+}
+.metallica{
+    flex-direction: column;
+}
+
+.metallica_foto{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.metallica_foto img{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+    
+
+
+.publicidad{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen_pelicula{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.section_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.discos_fotos{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin:0;
+    border-radius: 10%;
+    
+}
+
+.miembros{
+    flex-direction: column;
+}
+
+.miembros_foto{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0;
+    
+}
+.main_formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
