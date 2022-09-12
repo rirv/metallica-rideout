@@ -227,6 +227,21 @@ h2{
     margin-left: 25px;
     margin-right: 25px;
 }
+
+
+.tickets button{
+    border: none;
+    padding: 8px;
+    background-color: rgb(121, 153, 56);
+    border-radius: 5%;
+    cursor: pointer;
+    }
+    
+    .tickets button:hover{
+    background-color: rgb(168, 252, 0);
+    font-style: italic;
+    }
+    
 .metallica{
     display: flex;
     margin-top: 5rem;
