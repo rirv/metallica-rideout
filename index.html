@@ -29,6 +29,7 @@
     </header>  
     <section class="principal">
         <h1>Metallica Argentina</h1>
+        
             <section class="video_metallica">
             <iframe class=video_iframe width="800" height="600" src="https://www.youtube.com/embed/0dsmswM72wI" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
@@ -72,9 +73,34 @@
             </article>
         </section>
         <section class="section_img">
-        <picture class="imagen_pelicula">
-            <a href="https://www.imdb.com/title/tt2172935/" target="_blank"><img src="./images/pelicula.jpg" alt="peliculon"></a>
-        </picture>
+            <div id="carouselExampleControls" class="carousel slide imagen_pelicula" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <a href="https://www.imdb.com/title/tt0181173/?ref_=nv_sr_srsg_1" target="_blank">
+                        <img src="./images/metallicayear.jpg" class="d-block w-100" alt="a year and a half metallica"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.imdb.com/title/tt0387412/?ref_=fn_al_tt_1" target="_blank">
+                        <img src="./images/monster.jpg" class="d-block w-100" alt="some kind of monster"></a>
+                    </div>
+                    <div class="carousel-item active">
+                        <a href="https://www.imdb.com/title/tt2172935/" target="_blank">
+                        <img src="./images/pelicula.jpg" class="d-block w-100" alt="through the never"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.imdb.com/title/tt10765852/?ref_=nv_sr_srsg_0" target="_blank">
+                        <img src="./images/sm2.jpg" class="d-block w-100" alt="simphony and metallica"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
         </section>
     <footer class="footer">
         <Span>Todos los derechos reservados 2022</Span>
