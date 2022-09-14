@@ -410,7 +410,7 @@ h2{
     flex: 1;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 576px){
 
     .grid_index {
         display: grid;
@@ -583,7 +583,7 @@ h2{
         flex-direction: column;
     }
 }
-@media screen and (min-width: 376px) and (max-width:900px){
+@media screen and (min-width: 577px) and (max-width:900px){
 
     .grid_index {
         display: grid;
