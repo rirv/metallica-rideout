@@ -7,6 +7,7 @@ body{
     background-color: black;
     font-family: 'Hind Siliguri', sans-serif;
     color: white;
+    padding: 0;
 }
 
     .grid_index {
@@ -211,6 +212,16 @@ h2{
 .btn{
     background-color: black;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.card-img-top-center{
+    border-radius: 5%;
+}
+.card-img-top{
+    width: 500px;
 }
 .video_metallica {
     overflow:hidden;
@@ -297,6 +308,9 @@ h2{
     display: flex;
 }
 
+.card{
+    background-color: transparent;
+}
 .miembros_texto{
     margin: 2rem;
     border-style: solid;
