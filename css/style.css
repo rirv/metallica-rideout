@@ -208,7 +208,10 @@ h2{
     margin-top: 50px;
     font-size: 48px;
 }
-
+.btn{
+    background-color: black;
+    border: none;
+}
 .video_metallica {
     overflow:hidden;
     padding-bottom:600px;
