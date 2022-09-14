@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
-<body class="grid_contacto">
+<body class="grid_contacto container-fluid">
     <header class="cabecera">
         <nav class="navegador">
             <a href="../index.html"><img src="../images/logo.jpg" class=cabecera_logo alt="Logo"></a>
@@ -31,16 +31,33 @@
         <section class="main_formulario">
         <img src="../images/logo2.jpg" class="logo_contacto" alt="Mail Metallica">
         <div>
-        <form class="formulario">
+            <div class="mb-1 col-12">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Completo">
+              </div>
+              <div class="mb-1 col-12">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+              </div>
+              <div class="mb-1 col-12">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Introduzca Comentarios" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Enviar</button>
+            </div>
+        </section>
+        
+        
+        <!-- <form class="formulario">
             <input type="text" name="nombre" placeholder="Ingrese su nombre completo" required>
             <input type="number" name="documento" placeholder="Numero documento" required>
             <input type="email" name="correo" placeholder="Ingrese su email" required>
             <textarea name="ingrese-comentario" id="" cols="30" rows="10" placeholder="Ingrese Comentarios" required></textarea>
             <input type="reset" value="Restablecer">
             <input type="submit" value="Enviar">
-        </form>        
-        </div>
-        </section>
+        </form>         -->
+        
+        
     </main>
     <footer class="footer">
         <Span>Todos los derechos reservados</Span>
