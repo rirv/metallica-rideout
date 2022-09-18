@@ -283,6 +283,11 @@ h2{
     border-radius: 5%;
     background-color: #4B4B4B;
 }
+.section_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .imagen_pelicula img{
 
     display: flex;
