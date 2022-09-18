@@ -565,9 +565,8 @@ h2{
     .discos_fotos{
         width: 100%;
     }
-    .discos_textos{
+    .card-text{
         font-size: 12px;
-        margin:16px;
     }
     .galeria{
         display: flex;
