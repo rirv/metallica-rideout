@@ -233,6 +233,7 @@ h2{
     padding-bottom:600px;
     position:relative;
     height:0;
+    margin-bottom: 100px;
 }
 
 .video_iframe {
@@ -269,6 +270,7 @@ h2{
     display: flex;
     margin-top: 5rem;
     align-items: flex-start;
+    margin-bottom: 100px;
 }
 .metallica_foto{
     height: 100%;
@@ -278,10 +280,8 @@ h2{
 .metallica_texto{
     margin-left: 2rem;
     margin-right: 2rem;
-    border-style: solid;
+    border-top: solid;
     padding: 10px;
-    border-radius: 5%;
-    background-color: #4B4B4B;
 }
 .section_img{
     display: flex;
