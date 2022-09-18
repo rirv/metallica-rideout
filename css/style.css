@@ -410,13 +410,9 @@ h2{
 
 .main_formulario{
     display: flex;
-    justify-content: space-evenly;
-
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    margin-left: 100px;
+    margin-right: 200px;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 576px){
