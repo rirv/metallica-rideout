@@ -323,10 +323,8 @@ h2{
 }
 .miembros_texto{
     margin: 2rem;
-    border-style: solid;
+    border-top: solid;
     padding: 10px;
-    border-radius: 5%;
-    background-color: #4B4B4B;
     margin-top: 0;
 }
 .miembros_foto{
