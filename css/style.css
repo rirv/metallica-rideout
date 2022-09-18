@@ -321,6 +321,7 @@ h2{
 .card{
     background-color: transparent;
 }
+
 .miembros_texto{
     margin: 2rem;
     border-top: solid;
@@ -557,6 +558,7 @@ h2{
         width: 100%;
         justify-content: center;
         margin: 0;
+        padding: 40px;
     }
     .discos{
         flex-direction: column;
@@ -713,6 +715,9 @@ h2{
     width: 100%;
     justify-content: space-evenly;
     margin: 0;
+    padding: 100px;
+    border-radius: 15%;
+    
     
 }
 .main_formulario{
