@@ -1,0 +1,34 @@
+.section_img{
+    display: flex;
+    justify-content: space-evenly;
+    .imagen_pelicula {
+        img{
+            display: flex;
+            align-items: center;
+            margin-top: 0;
+        }
+    } 
+}
+
+@media screen and (max-width: 576px){
+    .publicidad{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imagen_pelicula img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:900px){
+    .section_img{
+        display: flex;
+        justify-content: space-evenly;
+        .imagen_pelicula{
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+    }
+}

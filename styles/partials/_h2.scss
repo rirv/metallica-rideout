@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: $h2FontSize;
+    font-weight: $h2FontWeight;
+    }
+
+    @media screen and (max-width: 576px){
+        h2{
+            font-size: $h2FontSizeMQ;
+            }
+    }

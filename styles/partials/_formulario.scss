@@ -1,0 +1,30 @@
+.main_formulario{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 576px){
+    .logo_contacto{
+        width: 100%;
+    }
+
+    .main_formulario{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .logo_contacto{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:900px){
+    .main_formulario{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
