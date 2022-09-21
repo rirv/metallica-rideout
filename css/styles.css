@@ -104,11 +104,19 @@ body {
   color: white;
 }
 
-.principal h1 {
+h1 {
   text-align: center;
   font-size: 64px;
   font-weight: 900;
 }
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
 .principal .video_metallica {
   overflow: hidden;
   padding-bottom: 600px;
@@ -122,12 +130,6 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-}
-.principal h2 {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 48px;
-  font-weight: 600;
 }
 .principal .metallica {
   display: flex;
@@ -502,7 +504,7 @@ body {
   .miembros {
     flex-direction: column;
   }
-  .miembros_foto {
+  .miembros .miembros_foto {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
