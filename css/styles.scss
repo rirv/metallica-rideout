@@ -370,11 +370,13 @@ h2{
             }
         }
     }
-    
+    h1{
+        font-size: 42px;
+        }
+    h2{
+        font-size: 24px;
+        }
     .principal{
-        h1{
-            font-size: 42px;
-            }
         .video_metallica {
             overflow:hidden;
             padding-bottom:400px;
@@ -388,9 +390,6 @@ h2{
                 position: absolute;
             }
         }
-        h2{
-            font-size: 24px;
-            }
         .metallica{
             flex-direction: column;
             .metallica_foto{
