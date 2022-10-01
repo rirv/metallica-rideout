@@ -1,11 +1,11 @@
 h1{
     text-align: center;
-    font-size: $h1FontSize;
-    font-weight: $h1FontWeight;
+    font-size: map-get($fontsize, h1FontSize);
+    font-weight: map-get($fontsize, h1FontWeight);
 }
 
 @media screen and (max-width: 576px){
     h1{
-        font-size: $h1FontSizeMQ;
+        font-size: map-get($fontsize, h1FontSizeMQ);
         }
 }

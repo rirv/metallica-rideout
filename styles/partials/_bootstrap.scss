@@ -1,6 +1,6 @@
 .boton{
     font-weight: 600;
-    color: $botonColor;
+    color: map-get($colors, botonColor);
 }
 
 .fotos{
@@ -8,7 +8,7 @@
 }
 
 .btn{
-    background-color: $mainColor;
+    background-color: map-get($colors, mainColor);
     border: none;
     display: flex;
     justify-content: center;

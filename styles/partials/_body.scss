@@ -1,6 +1,6 @@
 body{
-    background-color: $mainColor;
+    background-color: map-get($colors, mainColor);
     font-family: 'Hind Siliguri', sans-serif;
-    color: $mainTextColor;
+    color: map-get($colors, mainTextColor);
     padding: 0;
 }

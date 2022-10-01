@@ -10,8 +10,8 @@
         li{
             a{
                 text-decoration: none;
-                font-size: $headerFontSize;
-                color: $mainTextColor; 
+                font-size: map-get($fontsize, headerFontSize);
+                color: map-get($colors, mainTextColor); 
             }
         }
     }
@@ -61,7 +61,7 @@
             padding: 0;
             li{
                 a{
-                    font-size: $headerFontSize;
+                    font-size: map-get($fontsize, headerFontSize);
                     padding: 12px;  
                 }
             }

@@ -4,10 +4,7 @@
         border-radius: 5%;
     }
     .miembros_texto{
-        margin: 2rem;
-        border-top: solid;
-        padding: 10px;
-        margin-top: 0;
+        @extend %miembroTexto;
     }
 }
 
