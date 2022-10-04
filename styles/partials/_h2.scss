@@ -3,8 +3,13 @@ h2{
     margin-top: 50px;
     font-size: map-get($fontsize, h2FontSize);
     font-weight: map-get($fontsize, h2FontWeight);
+    
     }
-
+.h2_miembros{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+}
     @media screen and (max-width: 576px){
         h2{
             font-size: map-get($fontsize, h2FontSizeMQ);
