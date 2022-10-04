@@ -1,0 +1,33 @@
+.grid_miembros{
+    display: grid;
+    grid-template-areas:
+    "cabecera"
+    "hetfield"
+    "ulrich"
+    "hammett"
+    "trujillo"
+    "footer";
+    grid-template-rows: repeat(6, 1fr);
+    height: 100vh;
+    }
+    .cabecera {
+        grid-area: cabecera;
+        }
+
+    .hetfield {
+        grid-area: hetfield;
+        }
+
+    .ulrich {
+        grid-area: ulrich;
+        }
+
+    .hammett {
+        grid-area: hammett;
+        }
+    .trujillo {
+        grid-area: trujillo;
+        }
+    .footer {
+        grid-area: footer;
+        }

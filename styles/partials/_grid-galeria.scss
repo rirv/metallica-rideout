@@ -1,0 +1,20 @@
+.grid_galeria{
+    display: grid;
+    grid-template-areas:
+    "cabecera"
+    "main_galeria"
+    "footer";
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    }
+    .cabecera {
+        grid-area: cabecera;
+        }
+
+    .main_galeria {
+        grid-area: main_galeria;
+        }
+
+    .footer {
+        grid-area: footer;
+        }

@@ -1,0 +1,31 @@
+.boton{
+    font-weight: 600;
+    color: map-get($colors, botonColor);
+}
+
+.fotos{
+    width: 100%;
+}
+
+.btn{
+    background-color: map-get($colors, mainColor);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.card-img-top-center{
+    border-radius: 5%;
+}
+
+.card{
+    background-color: transparent;
+}
+
+@media screen and (max-width: 576px){
+    .card-text{
+        font-size: 12px;
+    }
+    
+}

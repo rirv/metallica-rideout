@@ -1,0 +1,12 @@
+.noticias_article{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+@media screen and (max-width: 576px){
+    .noticias_links{
+        li{
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: map-get($fontsize, h2FontSize);
+    font-weight: map-get($fontsize, h2FontWeight);
+    }
+
+    @media screen and (max-width: 576px){
+        h2{
+            font-size: map-get($fontsize, h2FontSizeMQ);
+            }
+    }

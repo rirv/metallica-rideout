@@ -1,0 +1,41 @@
+.miembros{
+    display: flex;
+    .miembros_foto{
+        border-radius: 5%;
+    }
+    .miembros_texto{
+        @extend %miembroTexto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .miembros{
+        flex-direction: column;
+        .miembros_foto{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin: 0;
+            padding: 40px;
+        }
+        .miembros_texto{
+            font-size: 12px;
+            margin: 16px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width:900px){
+    .miembros{
+        flex-direction: column;
+        .miembros_foto{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            margin: 0;
+            padding: 100px;
+            border-radius: 15%;
+        }
+    }
+}
