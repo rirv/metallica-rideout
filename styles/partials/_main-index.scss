@@ -24,10 +24,7 @@
         }
         }
         .metallica_texto{
-        margin-left: 2rem;
-        margin-right: 2rem;
-        border-top: solid;
-        padding: 10px;
+        @extend %metallica_texto;
         }
 }
 

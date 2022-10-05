@@ -1,8 +1,8 @@
-.miembros .miembros_texto {
-  margin: 2rem;
+.principal .metallica_texto {
+  margin-left: 2rem;
+  margin-right: 2rem;
   border-top: solid;
   padding: 10px;
-  margin-top: 0;
 }
 
 body {
@@ -433,13 +433,6 @@ h2 {
   height: 100%;
   border-radius: 10%;
 }
-.principal .metallica_texto {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  border-top: solid;
-  padding: 10px;
-}
-
 @media screen and (max-width: 576px) {
   .principal .video_metallica {
     overflow: hidden;
@@ -491,6 +484,13 @@ h2 {
 .miembros .miembros_foto {
   border-radius: 5%;
 }
+.miembros .miembros_texto {
+  margin: 2rem;
+  border-top: solid;
+  padding: 10px;
+  margin-top: 0;
+}
+
 @media screen and (max-width: 576px) {
   .miembros {
     flex-direction: column;
