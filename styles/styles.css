@@ -483,6 +483,8 @@ h2 {
 }
 .miembros .miembros_foto {
   border-radius: 5%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .miembros .miembros_texto {
   margin: 2rem;
