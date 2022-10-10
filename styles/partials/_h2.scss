@@ -10,8 +10,23 @@ h2{
     justify-content: flex-end;
     margin-right: 35px;
 }
-    @media screen and (max-width: 576px){
-        h2{
-            font-size: map-get($fontsize, h2FontSizeMQ);
-            }
+@media screen and (max-width: 576px){
+    h2{
+        font-size: map-get($fontsize, h2FontSizeMQ);
+        }
+    .h2_miembros{
+        display: flex;
+        justify-content: center;
+        margin: none;
+        margin-right: 8px;
     }
+}
+
+@media screen and (min-width: 577px) and (max-width:900px){
+    .h2_miembros{
+        display: flex;
+        justify-content: center;
+        margin: none;
+        margin-right: 8px;
+    }
+}
