@@ -9,7 +9,6 @@ body {
   background-color: black;
   font-family: "Figtree", sans-serif;
   color: white;
-  padding: 0;
 }
 
 .boton {
@@ -39,7 +38,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .card-text {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 .section_img {
@@ -473,7 +472,7 @@ h2 {
     margin: 16px;
   }
   .principal .metallica .metallica_texto p {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 900px) {
@@ -519,7 +518,7 @@ h2 {
     padding: 40px;
   }
   .miembros .miembros_texto {
-    font-size: 12px;
+    font-size: 13px;
     margin: 16px;
     border-top: none;
     border-bottom: solid;
@@ -555,7 +554,7 @@ h2 {
 
 @media screen and (max-width: 576px) {
   .noticias_links li {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 .tickets {
@@ -579,9 +578,13 @@ h2 {
 
 @media screen and (max-width: 576px) {
   .tickets span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .tickets button {
+    display: flex;
     height: 24px;
+    font-size: 10px;
+    align-items: center;
+    margin-left: 1px;
   }
 }/*# sourceMappingURL=styles.css.map */

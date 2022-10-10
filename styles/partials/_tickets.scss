@@ -20,10 +20,14 @@
 @media screen and (max-width: 576px){
     .tickets{
         span{
-            font-size: 12px;  
+            font-size: 13px;  
         }
         button{
+            display: flex;
             height: 24px;
+            font-size: 10px;
+            align-items: center;
+            margin-left: 1px;
         }
     }
 }
